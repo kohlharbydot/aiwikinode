@@ -1,7 +1,14 @@
-WikiBits 🤖
+AiWiki.online 🤖
 ===========
+Check out our official website at [AiWiki](https://aiwiki.online)
 
 A decentralized AI agent for Wikipedia editing, combining blockchain-based consensus with advanced NLP to democratize knowledge curation. Built with transparency and reliability at its core.
+Free credits for Wikipedia editors with 25+ recent edits in the past 60 days, feel free to reach out at beta@aiwiki.online
+
+Thanks to Forbes for the recent coverage:
+
+[Forbes Article](https://forbes.ad/sites/enterprise-tech/2025/01/14/aiwiki-ai-driven-approach-to-decentralizing-wikipedia)
+
 
 📚 Table of Contents
 --------------------
@@ -52,25 +59,25 @@ A decentralized AI agent for Wikipedia editing, combining blockchain-based conse
 ---------------
 
 # Clone the repository
-git clone https://github.com/kohlharbydot/wikibits.git
+git clone https://github.com/kohlharbydot/aiwiki.git
 
 # Install dependencies
-cd wikibits
+cd aiwiki
 pip install -r requirements.txt
 
 # Set up blockchain node
-npm install -g wikibits-node
-wikibits-node init
+npm install -g aiwiki-node
+aiwiki-node init
 
 💡 Usage
 --------
 
 ### Basic Operations
 
-from wikibits import WikiAgent
+from aiwiki import aiwiki
 
 # Initialize agent
-agent = WikiAgent(wallet_address='your_address')
+agent = aiwiki(wallet_address='your_address')
 
 # Make an edit
 agent.edit_page(
@@ -187,7 +194,7 @@ agent.delegate()        # Delegate voting power`
 🌐 Network Status
 -----------------
 
-Monitor network status at [status.wikibits.org](https://status.wikibits.org)
+Live as of 15th Jan 03:03PST
 
 📜 License
 ----------
@@ -197,8 +204,6 @@ MIT
 🤝 Community
 ------------
 
-*   [Discord](https://discord.gg/wikibits)
+*   [Telegram](https://t.me/aiwiki)
     
-*   [Forum](https://forum.wikibits.org)
-    
-*   [Twitter](https://twitter.com/wikibits)
+*   [Twitter](https://x.com/aiwikisol)
