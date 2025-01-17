@@ -1,209 +1,109 @@
-AiWiki.online 🤖
-===========
-Check out our official website at [AiWiki](https://aiwiki.online)
+# ResumixAI 🚀
 
-A decentralized AI agent for Wikipedia editing, combining blockchain-based consensus with advanced NLP to democratize knowledge curation. Built with transparency and reliability at its core.
-Free credits for Wikipedia editors with 25+ recent edits in the past 60 days, feel free to reach out at beta@aiwiki.online
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/resumix-ai.svg)](https://badge.fury.io/js/resumix-ai)
+[![GitHub stars](https://img.shields.io/github/stars/resumix-ai/resumix.svg)](https://github.com/resumix-ai/resumix/stargazers)
 
-Thanks to Forbes for the recent coverage:
+ResumixAI is an AI-powered platform that automates resume creation and job applications across multiple job boards. Recently backed with $200k in funding, we're democratizing the job hunting process through advanced AI technology.
 
-[Forbes Article](https://forbes.ad/sites/enterprise-tech/2025/01/14/aiwiki-ai-driven-approach-to-decentralizing-wikipedia)
+In the press:
+Forbes(https://forbes.ad/sites/enterprise-tech/2025/01/16/resumixai-how-ai-agents-are-transforming-the-job-search-in-2025)
+
+## 🌟 Features
+
+- **AI-Powered Resume Generation**: Create tailored resumes based on job descriptions
+- **Multi-Platform Integration**: Apply to jobs across 20+ job boards automatically
+- **Real-time Application Tracking**: Monitor your application status and progress
+- **Smart Job Matching**: Get personalized job recommendations based on your profile
+- **Automated Cover Letter Generation**: Generate customized cover letters for each application
+
+## 🚀 Quick Start
+
+### Installation
+bash
+npm install resumix-ai
+
+### Basic Usage
+javascript
+const ResumixAI = require('resumix-ai');
+// Initialize the AI agent
+const agent = new ResumixAI({
+apiKey: 'your-api-key'
+});
+// Generate a resume
+const resume = await agent.generateResume({
+jobTitle: 'Software Engineer',
+experience: 5,
+skills: ['JavaScript', 'React', 'Node.js']
+});
+// Apply for a job
+const application = await agent.applyForJob({
+jobId: 'job-123',
+resume: resume,
+coverLetter: true
+});
+// Check application status
+const status = await agent.getApplicationStatus('app-123');
 
 
-📚 Table of Contents
---------------------
+## 📚 Documentation
 
-*   Features
-    
-*   Installation
-    
-*   Usage
-    
-*   Architecture
-    
-*   Contributing
-    
-*   Documentation
-    
+For detailed documentation, visit our [official documentation](https://docs.resumixai.com).
 
-✨ Features
-----------
+### Key Methods
 
-### Core Functionality
+- `generateResume(options)`: Generate a tailored resume
+- `applyForJob(options)`: Submit a job application
+- `getApplicationStatus(applicationId)`: Check application status
+- `searchJobs(criteria)`: Search for matching jobs
+- `generateCoverLetter(options)`: Create a customized cover letter
 
-*   **Decentralized Editing**: Blockchain-based consensus mechanism for edit verification
-    
-*   **AI-Powered Curation**: Advanced NLP for content quality assessment
-    
-*   **Multi-Source Verification**: Automated fact-checking across reliable sources
-    
-*   **Vandalism Detection**: ML-based system to prevent malicious edits
-    
-*   **Token Economics**: Incentive system for quality contributions
-    
+## 🔑 Authentication
 
-### Technical Features
+Sign up at [ResumixAI](https://resumixai.com) to get your API key. Add it to your environment variables:
+bash
+export RESUMIX_API_KEY='your-api-key'
 
-*   Cross-language support
-    
-*   Real-time edit tracking
-    
-*   Distributed storage system
-    
-*   API integration with Wikipedia
-    
-*   Smart contract-based governance
-    
+## 📊 Platform Statistics
 
-🚀 Installation
----------------
+- 15,000+ Active Users
+- 20+ Integrated Job Boards
+- Featured in Forbes
+- Trusted by teams at Google and Microsoft
 
-# Clone the repository
-git clone https://github.com/kohlharbydot/aiwiki.git
+## 💻 Requirements
 
-# Install dependencies
-cd aiwiki
-pip install -r requirements.txt
+- Node.js >= 14.x
+- API Key from ResumixAI
+- Internet connection for API calls
 
-# Set up blockchain node
-npm install -g aiwiki-node
-aiwiki-node init
+## 🤝 Contributing
 
-💡 Usage
---------
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-### Basic Operations
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-from aiwiki import aiwiki
+## 📝 License
 
-# Initialize agent
-agent = aiwiki(wallet_address='your_address')
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# Make an edit
-agent.edit_page(
-    title="Article_Name",
-    content="New content",
-    sources=["url1", "url2"]
-)
+## 🔗 Links
 
-# Verify facts
-agent.verify_fact("Statement to verify") `
+- [Website](https://resumixai.com)
 
-### Governance Participation
 
-# Submit proposal
-agent.submit_proposal(
-    proposal_type="POLICY_CHANGE",
-    description="Proposal description",
-    voting_period=7  # days
-)
+## 📧 Support
 
-# Vote on proposals
-agent.vote(proposal_id=123, vote="APPROVE")
+For support, email support@resumixai.com or join our [Discord community](https://discord.gg/resumixai).
 
-🏗 Architecture
----------------
+## 🌟 Star Us!
 
-### Components
+If you find ResumixAI helpful, please consider giving us a star ⭐️ to show your support!
 
-1.  **Core Layer**
-    
-    *   Consensus mechanism
-        
-    *   Edit verification
-        
-    *   Storage management
-        
-2.  **AI Layer**
-    
-    *   NLP processing
-        
-    *   Fact verification
-        
-    *   Content quality assessment
-        
-3.  **Blockchain Layer**
-    
-    *   Smart contracts
-        
-    *   Token management
-        
-    *   Governance system
-        
+---
 
-🤝 Contributing
----------------
-
-We welcome contributions! Please see our Contributing Guidelines.
-
-1.  Fork the repository
-    
-2.  Create feature branch
-    
-3.  Commit changes
-    
-4.  Push to branch
-    
-5.  Open a Pull Request
-    
-
-📖 Documentation
-----------------
-
-### API Reference
-
-# Edit Management
-agent.edit_page()        # Submit new edits
-agent.review_edit()      # Review pending edits
-agent.rollback()         # Revert changes
-
-# Fact Verification
-agent.verify_fact()      # Check fact accuracy
-agent.add_source()       # Add new sources
-agent.check_reliability() # Verify source reliability
-
-# Governance
-agent.propose()          # Submit proposals
-agent.vote()            # Vote on changes
-agent.delegate()        # Delegate voting power`
-
-🔐 Security
------------
-
-*   Multi-signature verification
-    
-*   Rate limiting
-    
-*   Automated threat detection
-    
-*   Regular security audits
-    
-
-📊 Token Economics
-------------------
-
-*   Edit rewards
-    
-*   Staking mechanism
-    
-*   Governance participation
-    
-*   Quality multipliers
-    
-
-🌐 Network Status
------------------
-
-Live as of 15th Jan 03:03PST
-
-📜 License
-----------
-
-MIT
-
-🤝 Community
-------------
-
-*   [Telegram](https://t.me/aiwkisol)
-    
-*   [Twitter](https://x.com/aiwikisol)
+Made with ❤️ by the ResumixAI Team
