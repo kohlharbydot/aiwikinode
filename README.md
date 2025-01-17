@@ -7,7 +7,7 @@
 ResumixAI is an AI-powered platform that automates resume creation and job applications across multiple job boards. Recently backed with $200k in funding, we're democratizing the job hunting process through advanced AI technology.
 
 In the press:
-Forbes[https://forbes.ad/sites/enterprise-tech/2025/01/16/resumixai-how-ai-agents-are-transforming-the-job-search-in-2025]
+[Forbes](https://forbes.ad/sites/enterprise-tech/2025/01/16/resumixai-how-ai-agents-are-transforming-the-job-search-in-2025)
 
 ## 🌟 Features
 
