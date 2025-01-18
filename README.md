@@ -1,18 +1,18 @@
-# ResumixAI 🚀
+# TweetX 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/resumix-ai/resumix.svg)](https://github.com/schultzmarcus/tweetx/stargazers)
 
-ResumixAI is an AI-powered platform that automates resume creation and job applications across multiple job boards. Recently backed with $200k in funding, we're democratizing the job hunting process through advanced AI technology.
-
-In the press:
-[Forbes](https://forbes.ad/sites/enterprise-tech/2025/01/16/resumixai-how-ai-agents-are-transforming-the-job-search-in-2025)
 
 # 🤖 TweetX AI Agent
 
 An advanced AI-powered backend service that analyzes Twitter personalities using natural language processing and machine learning.
 
+In the press:
+[Forbes]()
+
 ![TweetX Banner](https://tweetx.live/black.jpeg)
+
 
 ## 🌟 Features
 
