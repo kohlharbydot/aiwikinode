@@ -12,7 +12,7 @@ In the press:
 
 An advanced AI-powered backend service that analyzes Twitter personalities using natural language processing and machine learning.
 
-![TweetX Banner](https://tweetx.live/twlogo.png)
+![TweetX Banner](https://tweetx.live/black.jpeg)
 
 ## 🌟 Features
 
